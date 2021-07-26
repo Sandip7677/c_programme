@@ -11,6 +11,7 @@ int main(){
         rev=rev*10+reminder;
         num2=num2/10;
     }
+    printf("before reersal number is %d \nafter reversal number is %d\n",num1,rev);
     if (num1==rev)
     {
         printf("it is a pelindrom \n");

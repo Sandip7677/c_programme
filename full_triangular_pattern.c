@@ -3,21 +3,17 @@ int main()
 {   int n;
     printf("input size of traingle \n");
     scanf("%d",&n);
-    for (int  i = 1; i <=n; i++)
+    for (int  i = 0; i <n; i++)
     {
-        for (int  j = 1; j <= 2*n; j++)
+        for (int  j = 0; j <n+i; j++)
         {
-            if (j<=n-i)
+            if (j<n-i-1)
             {
                 printf("  ");
             }
-            else if (j>n-i && j<= n+i)
+            else 
             {
                 printf("* ");
-            }
-            else
-            {
-                printf("  ");
             }
         }
         printf("\n");
