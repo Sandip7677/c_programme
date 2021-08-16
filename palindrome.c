@@ -5,21 +5,15 @@ int main(){
     printf("inter vlaue of integer \n");
     scanf("%d",&num1);
     num2=num1;
-    while (num2!=0)
-    {
+    while (num2!=0){
         reminder=num2%10;
         rev=rev*10+reminder;
         num2=num2/10;
     }
     printf("before reersal number is %d \nafter reversal number is %d\n",num1,rev);
     if (num1==rev)
-    {
         printf("it is a pelindrom \n");
-    }
     else
-    {
         printf("it is not a pelindrome \n");
-    }
-    
     return 0;
 }

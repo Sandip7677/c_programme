@@ -2,10 +2,10 @@
 #include <math.h>
 
 int main(){
-    int num1,num2,reminder;
-    printf("input an integer value \n");
-    scanf("%d",&num1);
-    for(int i=1;i<=num1;i++){
+    int high,low,num2,reminder;
+    printf("input range \n");
+    scanf("%d %d",&low,&high);
+    for(int i=low+1;i<=high;i++){
         float sum=0;
         num2=i;
         int j=0;
@@ -21,7 +21,6 @@ int main(){
             sum=sum+pow(reminder,j);
             num2=num2/10;
         }
-        // printf("%d",sum);
         if (i==sum)
         {
             printf("%d\n",i);

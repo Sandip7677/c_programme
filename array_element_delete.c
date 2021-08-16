@@ -9,7 +9,7 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&array[i]);
     }
-    printf("input index number of element you want to delete\n");
+    printf("input index number of element you want to delete less than %d\n",n);
     scanf("%d",&element);
 
     printf("before deletion array is : \n");
