@@ -1,5 +1,4 @@
 #include<stdio.h>
-
 int main(){
     int n,n2;
     printf("input how many numbers you want in your arrray \n");
@@ -22,7 +21,6 @@ int main(){
     {
         array2[i]=array[i];
     }
-    
     for(int i=0;i<n2;i++){
         int num,index;
         printf("input index number at which you want to insert your number \n");

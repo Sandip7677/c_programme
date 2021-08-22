@@ -15,6 +15,10 @@ int main(){
     for (int i=0;i<n;i++){
         printf("%d\n",array[i]);
     }
+
+    // for (int i=n-1;i>=0;i--){
+    //     printf("%d\n",array[i]);
+    // }
     printf("\n");
 
     int temp;

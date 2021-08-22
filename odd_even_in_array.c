@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int n,sum=0;
+    int n;
     printf("input number of elment you want in your array \n");
     scanf("%d",&n);
     int array[n];
@@ -10,9 +10,15 @@ int main()
         scanf("%d",&array[i]);
     }
     for(int i=0;i<n;i++){
-        // sum+=array[i];
-        sum=sum+array[i];
+       if (array[i]%2==0)
+       {
+           printf("number at %d th position is even and is %d\n",i,array[i]);
+       }
+       else
+       {
+           printf("number at %d th position is odd and is %d\n",i,array[i]);
+       }
+       
     }
-    printf("sum of all numbers is: %d",sum);
     return 0;
 }

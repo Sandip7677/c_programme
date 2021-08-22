@@ -12,8 +12,8 @@ int main()
     int matrix2[m2][n2];
     if (n1 == m2)
     {
-        int resultant_matrix[m1][n2];
-        memset(resultant_matrix,0,m1*n2*sizeof(resultant_matrix[0][0]));
+        int resultant_matrix[m1][n2]={0,0};
+        // memset(resultant_matrix,0,m1*n2*sizeof(resultant_matrix[0][0]));
         printf("input number in matrix 1 of order %d x %d\n", m1, n1);
         for (int i = 0; i < m1; i++)
         {
