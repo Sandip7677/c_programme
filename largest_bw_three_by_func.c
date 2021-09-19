@@ -2,25 +2,17 @@
 int cal(int a,int b,int c){
     if(a>b){
         if (b>c)
-        {
             return a;
-        }
         else if (c>a)
-        {
             return c;
-        }
     }
 
     else
     {
         if (b>c)
-        {
             return b; 
-        }
         else if (c>a)
-        {
             return c;
-        }
     }
 }
 int main()

@@ -2,9 +2,7 @@
 
 int main()
 {
-    for (int i = 0; i=4; i++)
-    {
-        printf("%d",i);
-    }
+   int a= printf("anuj kumar");
+   printf("%d",a);
 return 0;
 }

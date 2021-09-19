@@ -37,7 +37,7 @@ int main()
     {
         for (int j = 0; j<m; j++)
         {
-            printf("%d  ", matrix_tans[i][j]);
+            printf("%d  ", matrix_tans[j][i]);
         }
         printf("\n");
     }

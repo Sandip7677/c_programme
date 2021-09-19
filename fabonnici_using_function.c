@@ -1,7 +1,5 @@
 #include<stdio.h>
-
 void fabonnici(int n);
-
 int main(){
     int n;
     printf("input a number to claculate fabonnici series upto that number\n");

@@ -1,14 +1,15 @@
 #include<stdio.h>
 
-float calculate(int *n);
+void calculate(float n,float *area);
 int main(){
-    int r;
+    float r,area;
     printf("input radius of circle \n");
-    scanf("%d",&r);
-    printf("area of circle is:- %.2f unit square",calculate(&r));
+    scanf("%f",&r);
+    calculate(r,&area);
+    printf("area of circle is:- %.2f unit square",area);
     return 0;
 }
 
-float calculate(int *n){
-    return (3.14*(*n)*(*n));
+void calculate(float n,float *area){
+    *area=3.14*n*n;
 }
